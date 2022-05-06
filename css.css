@@ -42,13 +42,14 @@ section{
 .title{
     text-align: center;
     padding: 2rem 1rem;
+    margin-top: 75px;
 }
 
 /*for all span elements of title class*/
 .title span{
-    font-size: 4rem;
+   font-size: 2.5rem;
     background: rgba(255, 165, 0, .2);
-    color: var(--orange);
+    color: var(--blue);
     border-radius: 2rem;
     padding: 1.5rem;
 }
@@ -306,19 +307,20 @@ that are descendents of elements of gallery class*/
 /*for all elements of button class*/
 .btn{
     display: inline-block;
-    margin-top: 1rem;
-    background: var(--orange);
-    color:#fff;
-    padding: .8rem 3rem;
-    border: .2rem solid var(--orange);
-    cursor: pointer;
-    font-size: 1.7rem;
+  margin-top: 1rem;
+  background:var(--blue);
+  color:#fff;
+  padding:.8rem 3rem;
+  border: 2px solid var(--blue);
+  cursor: pointer;
+  font-size: 1.7rem;
 }
 
 /*hover selector for all elements of button class*/
 .btn:hover{
-    background: rgba(255, 165, 0, .2);
-    color: var(--orange);
+    background:#3D6757;
+    color:#fff;
+    border: 2px solid #33373A;
 }
 
 /*media query for responsive webdesign*/
