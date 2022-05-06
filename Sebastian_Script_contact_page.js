@@ -42,7 +42,6 @@ videoBtn.forEach(btn =>{
         document.querySelector('#video-slider').src = src;
     });
 });
-//Author: Sebastian 
 
 const MANDATORYCONTACTINPUTS = document.querySelectorAll('.contact_mandatory_input');
 const CONTACTFORM = document.querySelector('.contact_form');
