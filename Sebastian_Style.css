@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+  --gold: rgb(255, 218, 11);
+  --orange:#ffa500;
+}
+
+
+*{
+  font-family: 'Nunito', sans-serif;
+  margin:0; 
+  padding:0;
+  box-sizing: border-box;
+  /*text-transform: capitalize;*/
+  outline: none; border:none;
+  text-decoration: none;
+  transition: all .2s linear;
+}
+
+*::selection{
+  background:var(--gold);
+  color:#fff;
+}
+
+html{
+ /* font-size: 62.5%;*/
+  overflow-x: hidden;
+  scroll-padding-top: 6rem;
+  scroll-behavior: smooth;
+}
+
+section{
+  padding:1.8rem 9%;
+}
+
+.heading{
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .heading span{
+    font-size: 2.5rem;
+    background: rgba(255, 165, 0, .2);
+    color: var(--orange);
+    border-radius: 2rem;
+    padding: 1.5rem;
+  }
+  
+  .heading span.space{
+    background:none;
+  }
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    background: var(--orange);
+    color:#fff;
+    padding: .8rem 3rem;
+    border: .2rem solid var(--orange);
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.btn:hover{
+    background: rgba(255, 165, 0, .2);
+    color: var(--orange);
+}
+
+
+/* Review */
+.review .review-slider{
+    padding-bottom: 1.8rem;
+}
+.review .swiper-slide{
+    padding: 1.8rem;
+    text-align: center;
+    box-shadow: 0 1rem 1.8rem  rgb(19, 46, 46);
+    border-radius: 0.7rem;
+}
+.review .swiper-slide img{
+    height: 13rem;
+    width: 13rem;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .boswiper-slide h3{
+    font-size: 2.3rem;
+    color: rgb(37, 37, 37);
+}
+.review .swiper-slide p{
+    font-size: 1,3rem;
+    color: rgb(59, 59, 59);
+    padding: 1rem 0;
+}
+.review .swiper-slide .review_stars{
+    font-size: 1,6rem;
+    color: var(--gold);
+}
+
+.swiper-pagination  {
+  margin-bottom: 0.3rem !important;
+  height: 0.6rem;
+  width: 0.6rem;
+}
+.swiper-pagination-bullet {
+  background-color: var(--gold);
+  height: 0.6rem;
+  width: 0.6rem;
+
+}
+
+/*Contact us*/
+.contact .row{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+.contact .row .contact_icon{
+    flex: 1 1 35 rem;
+}
+.contact .row .contact_icon img{
+    width: 100%;
+}
+.contact .row .form{
+    padding: 1.8rem;  
+    flex: 1 1 35 rem;
+    box-shadow: 0 1rem 1.8rem rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+
+}
+.contact .row .form .inputBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact .row form .inputBox input, 
+.contact .row form textarea{
+    width:49%;
+    margin: 1rem 0;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: rgb(59, 59, 59);
+    background: #fafafaf7;
+    text-transform: none;
+}
+.contact .row form textarea{
+    height: 15rem;
+    resize: none;
+    width: 100%;
+
+}
+
+/*Footer*/
+.footer{
+    background:rgb(39, 39, 39);
+  }
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+}
+
+.footer .box-container .box{
+    padding: 1rem 0;
+    flex: 1 1 27rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.2rem;
+    padding: 0.8rem 0;
+    color: white;
+}
+.footer .box-container .box p{
+    font-size: 1.3rem;
+    padding: 0.7rem 0;
+    color: rgb(197, 197, 197);
+}
+.footer .box-container .box a{
+    font-size: 1.0rem;
+    display: block;
+    padding: 0.8rem 0;
+    color: white;
+}
+.footer .box-container .box a:hover{
+    color: var(--gold);
+    text-decoration: underline;
+}
+
+
+
+@media (max-width:460px){
+    .contact .row form .inputBox input{
+        width:100%
+    }
+}
+
