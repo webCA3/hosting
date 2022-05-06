@@ -1,4 +1,4 @@
-//Author: Sebastian Konefal student No. 21197458
+//Author: Sebastian 
 
 // full descirption of paramaters are at https://swiperjs.com/swiper-api
 var swiper = new Swiper(".review-slider", {
