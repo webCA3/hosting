@@ -1,0 +1,83 @@
+<!--Author Claudia Meium Student Number 21178577-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>Online Travel Agency Booking</title>
+
+    <meta charset="UTF-8">
+    <meta name="Online Travel Agency" content="width=device-width, initial-scale=1.0">
+    
+
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <!--then custom css file link-->
+    <link rel="stylesheet" href="css.css">
+        
+</head>
+
+<body>
+
+    <section class="booking" id="booking">
+
+        <!--sub-header, stylised with css-->
+        <h1 class="title">
+            <span>t</span>
+            <span>r</span>
+            <span>a</span>
+            <span>v</span>
+            <span>e</span>
+            <span>l</span>
+            <span class="blank"></span>
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span>i</span>
+            <span>n</span>
+            <span>g</span>
+        </h1>
+
+        <div class="container">
+
+            <div class="image">
+                <!--image tag for svg with javascript onerror browser event for png version of same image, 
+                    for if svg file fails to load (since svg can be tricky in some browsers)-->
+                <img src="images/airplane.svg" onerror='this.src="images/airplane.png"' alt="">
+            </div>
+
+            <!--booking form arranged with divs-->
+            <form action="">
+                <!--inner div of inputBox class containing elements for destination input box-->
+                <div class="inputBox">
+                    <h3>Destination</h3>
+                    <input type="text" placeholder="destination name">
+                </div>
+                <!--inner div of inputBox class containing elements for guests input box-->
+                <div class="inputBox">
+                    <h3>Guests</h3>
+                    <input type="number" placeholder="number of guests" min="1">
+                </div>
+                <!--inner div of inputBox class containing elements for arrival date input box-->
+                <div class="inputBox">
+                    <h3>Arrival Date</h3>
+                    <input type="date">
+                </div>
+                <!--inner div of inputBox class containing elements for return date input box-->
+                <div class="inputBox">
+                    <h3>Return Date</h3>
+                    <input type="date">
+                </div>
+                <!--submit button-->
+                <input type="submit" class="btn" value="Book Now">
+                
+            </form>
+        </div>
+
+    </section>
+
+</body>

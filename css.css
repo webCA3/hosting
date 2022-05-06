@@ -1,0 +1,334 @@
+/*importing fonts using*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+/*root selector to target element representing highest-level element of document (html element)*/
+:root{
+    --orange:#ffa500;
+}
+
+/*universal selector - for all elements*/
+*{
+    font-family:'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    transition: all .2s linear;
+}
+
+/*for portion of element selected by user*/
+*::selection{
+    background:var(--orange);
+    color:#fff;
+}
+
+/*for html elements*/
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior:smooth;
+}
+
+/*for section elements*/
+section{
+    padding: 3rem 10%;
+}
+
+/*title class formatting*/
+/*for all elements of title class*/
+.title{
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+/*for all span elements of title class*/
+.title span{
+    font-size: 4rem;
+    background: rgba(255, 165, 0, .2);
+    color: var(--orange);
+    border-radius: 2rem;
+    padding: 1.5rem;
+}
+
+/*for all span elements of space class and of title class*/
+.title span.blank{
+    background:none;
+}
+
+/*booking class formatting*/
+/*for all elements of container class that are descendents of elements of booking class*/
+.booking .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+}
+
+/*for all elements of image class that are descendents of elements of container class
+that are descendents of elements of booking class*/
+.booking .container .image{
+    flex: 1 1 35rem;   
+}
+
+/*for all image elements of image class that are descendents of elements of container class
+that are descendents of elements of booking class*/
+.booking .container .image img{
+    width: 100%;   
+}
+
+/*for all form elements of container class that are descendents of elements of booking class*/
+.booking .container form{
+    flex: 1 1 35rem; 
+    padding: 2rem;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.1);
+    border-radius: 7rem;  
+}
+
+/*for all elements of inputBox class within form elements of container class
+ that are descendents of elements of booking class*/
+.booking .container form .inputBox{
+    padding: 5rem 0;
+}
+
+/*for all input elements of inputBox class within form elements of container class
+ that are descendents of elements of booking class*/
+.booking .container form .inputBox input{
+    width: 100%;
+    padding: 1rem;
+    border: .2rem solid rgba(0,0,0,.1);
+    font-size: 1.7rem;
+    color:#333;
+    text-transform: none;
+}
+
+/*for all h3 elements of inputBox class within form elements of container class
+ that are descendents of elements of booking class*/
+.booking .container form .inputBox h3{
+    font-size: 2rem;
+    padding: 1rem 0;
+    color: #666;
+}
+
+/*packages class formatting*/
+/*for all elements of outer-box class that are descendents of elements of packages class*/
+.packages .outer-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+/*for all elements of box class that are descendents of elements of outer-box class
+ that are descendents of elements of packages class*/
+.packages .outer-box .box{
+    flex: 1 1 30%;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.1);
+}
+
+/*for all image elements of box class that are descendents of elements of outer-box class
+ that are descendents of elements of packages class*/
+.packages .outer-box .box img{
+    height: 27rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*for all elements of content class that are descendents of elements of box class
+ that are descendents of elements of outer-box class that are descendents of elements of packages class*/
+.packages .outer-box .box .content{
+    padding: 3rem;
+}
+
+/*for all h3 elements of content class that are descendents of elements of box class
+ that are descendents of elements of outer-box class that are descendents of elements of packages class*/
+.packages .outer-box .box .content h3{
+    font-size: 2rem;
+    color: #333;
+}
+
+/*for all i elements within h3 elements of content class that are descendents of elements of box class
+ that are descendents of elements of outer-box class that are descendents of elements of packages class*/
+.packages .outer-box .box .content h3 i{
+    color: var(--orange);
+}
+
+/*for all p elements of content class that are descendents of elements of box class
+ that are descendents of elements of outer-box class that are descendents of elements of packages class*/
+.packages .outer-box .box .content p{
+    font-size: 1.6rem;
+    color: #666;
+    padding: 1rem 0;
+}
+
+/*for all i elements of stars class that are descendents of elements of content class
+ that are descendents of elements of box class that are descendents of elements of outer-box class
+  that are descendents of elements of packages class*/
+.packages .outer-box .box .content .stars i{
+    font-size:1.7rem;
+    color: var(--orange);
+}
+
+/*for all elements of price class that are descendents of elements of content class 
+that are descendents of elements of box class that are descendents of elements of outer-box class 
+that are descendents of elements of packages class*/
+.packages .outer-box .box .content .price{
+    font-size: 1.7rem;
+    color: #333;
+    padding-top: 1rem;
+}
+
+/*for all span elements of price class that are descendents of elements of content class 
+that are descendents of elements of box class that are descendents of elements of outer-box class 
+that are descendents of elements of packages class*/
+.packages .outer-box .box .content .price span{
+    color: #666;
+    font-size: 1.7 rem;
+    text-decoration: line-through;
+}
+
+/*services class formatting*/
+/*for all elements of outer-box class that are descendents of elements of services class*/
+.services .outer-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+/*for all elements of box class that are descendents of elements of outer-box class
+ that are descendents of elements of services class*/
+.services .outer-box .box{
+    flex: 1 1 30rem;
+    border-radius: .7rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+/*for all i elements of box class that are descendents of elements of outer-box class
+ that are descendents of elements of services class*/
+.services .outer-box .box i{
+    padding: 2rem;
+    font-size: 4rem;
+    color: var(--orange);
+}
+
+/*for all h3 elements of box class that are descendents of elements of outer-box class
+ that are descendents of elements of services class*/
+.services .outer-box .box h3{
+    font-size: 2.7rem;
+    color: #333;
+}
+
+/*for all p elements of box class that are descendents of elements of outer-box class
+ that are descendents of elements of services class*/
+.services .outer-box .box p{
+    font-size: 1.5rem;
+    color: #666;
+    padding: 1rem 0;
+}
+
+/*hover selector for all elements of box class that are descendents of elements of outer-box class
+that are descendents of elements of services class*/
+.services .outer-box .box:hover{
+  box-shadow: 0 5rem 10rem rgba(0,0,0,.1);  
+}
+
+/*gallery class formatting*/
+/*for all elements of outer-box class that are descendents of elements of gallery class*/
+.gallery .outer-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5 rem;
+}
+
+/*for all elements of box class that are descendents of elements of outer-box class 
+that are descendents of elements of gallery class*/
+.gallery .outer-box .box{
+    overflow: hidden;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.1);
+    border: .75rem solid #fff;
+    border-radius: 5rem;
+    flex: 1 1 30rem;
+    height: 25rem;
+    position: relative;
+}
+
+/*for all image elements of box class that are descendents of elements of outer-box class 
+that are descendents of elements of gallery class*/
+.gallery .outer-box .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*for all elements of content class that are descendents of elements of box class 
+that are descendents of elements of outer-box class 
+that are descendents of elements of gallery class*/
+.gallery .outer-box .box .content{
+    position: absolute;
+    top: -100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background: rgba(0,0,0,.7);
+    padding: 2rem;
+    padding-top: 4rem;
+}
+/*hover selector for all elements of content class that are descendents of elements of box class
+ that are descendents of elements of outer-box class 
+that are descendents of elements of gallery class
+hover activated over elements of box class*/
+.gallery .outer-box .box:hover .content{
+    top:0;
+}
+
+/*for all h3 elements of content class that are descendents of elements of box class 
+that are descendents of elements of outer-box class 
+that are descendents of elements of gallery class*/
+.gallery .outer-box .box .content h3{
+    font-size: 2.5rem;
+    color: var(--orange);
+}
+
+/*for all p elements of content class that are descendents of elements of box class 
+that are descendents of elements of outer-box class 
+that are descendents of elements of gallery class*/
+.gallery .outer-box .box .content p{
+    font-size: 1.2rem;
+    color:#eee;
+    padding:.5rem 0;
+}
+
+/*for all elements of button class*/
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    background: var(--orange);
+    color:#fff;
+    padding: .8rem 3rem;
+    border: .2rem solid var(--orange);
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+/*hover selector for all elements of button class*/
+.btn:hover{
+    background: rgba(255, 165, 0, .2);
+    color: var(--orange);
+}
+
+/*media query for responsive webdesign*/
+@media (max-width: 45-px){
+
+    html{
+        font-size: 50%;
+    }
+
+    .title span{
+        font-size: 2.5rem;
+    }
+}
