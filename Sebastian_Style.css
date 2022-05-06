@@ -35,7 +35,24 @@
     padding:2rem 9%;
   }
 
- 
+
+.heading{
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .heading span{
+    font-size: 2.5rem;
+    background: rgba(255, 165, 0, .2);
+    color: var(--blue);
+    border-radius: 2rem;
+    padding: 1.5rem;
+  }
+  
+  .heading span.space{
+    background:none;
+  }
+
 .btn{
   display: inline-block;
   margin-top: 1rem;
