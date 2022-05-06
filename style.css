@@ -373,7 +373,7 @@ header .logo span{
     color: white;
 }
 .footer .box-container .box a:hover{
-    color: var(--gold);
+    color: var(--blue);
     text-decoration: underline;
 }
 
