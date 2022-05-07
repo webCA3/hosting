@@ -286,6 +286,7 @@ header .logo span{
     font-size: 1,3rem;
     color: rgb(59, 59, 59);
     padding: 1rem 0;
+    text-transform: none;
 }
 .holiday-review .swiper-slide .review_stars{
     font-size: 1,6rem;
@@ -301,7 +302,6 @@ header .logo span{
   background-color: var(--blue);
   height: 0.6rem;
   width: 0.6rem;
-
 }
 
 /*Contact us*/
