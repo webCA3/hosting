@@ -371,6 +371,7 @@ header .logo span{
     font-size: 1.3rem;
     padding: 0.7rem 0;
     color: rgb(197, 197, 197);
+    text-transform: none;
 }
 .footer .box-container .box a{
     font-size: 1.0rem;
