@@ -1,3 +1,6 @@
+//Author: Part 1: Izabela, Part 2: Sebastian 
+//Part 1:
+
 let searchBtn = document.querySelector('#search-btn');
 let searchBar = document.querySelector('.search-bar-container');
 let formBtn = document.querySelector('#login-btn');
@@ -42,6 +45,8 @@ videoBtn.forEach(btn =>{
         document.querySelector('#video-slider').src = src;
     });
 });
+
+//Part 2 Sebastian 
 
 const MANDATORYCONTACTINPUTS = document.querySelectorAll('.contact_mandatory_input');
 const CONTACTFORM = document.querySelector('.contact_form');
