@@ -170,7 +170,7 @@ that are descendents of elements of booking class*/
   that are descendents of elements of packages class*/
 .packages .outer-box .box .content .stars i{
     font-size:1.7rem;
-    color: var(--orange);
+    color: gold;
 }
 
 /*for all elements of price class that are descendents of elements of content class 
