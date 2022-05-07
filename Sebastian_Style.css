@@ -63,6 +63,7 @@
   border: 2px solid var(--blue);
   cursor: pointer;
   font-size: 1.7rem;
+  border-radius: 4rem;
 }
 
 .btn:hover{
@@ -220,6 +221,7 @@ header .logo span{
   .login-form-container form .btn{
     display: block;
     width:100%;
+    border-radius: 4rem;
   }
   
 
