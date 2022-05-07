@@ -3,7 +3,7 @@
 
 /*root selector to target element representing highest-level element of document (html element)*/
 :root{
-    --orange:#ffa500;
+    --orange:#ff7811;
 }
 
 /*universal selector - for all elements*/
