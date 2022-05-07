@@ -82,7 +82,7 @@ CONTACTFORM.addEventListener('submit', e => {
       toastr.error('Please enter a valid: ' + messeges.join(', '));
       e.preventDefault();//Preventing default setting to refresh the page on submit:
     }else {
-      toastr.info('Your contact form was sent succesfully');
+      toastr.info('Your contact form was validated succesfully');
       //TESTING:
      //setTimeout(() => { 
     //   document.querySelector('contact_form').setAttribute("method", "POST");
