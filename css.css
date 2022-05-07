@@ -239,7 +239,7 @@ that are descendents of elements of services class*/
 
 /*gallery class formatting*/
 /*for all elements of outer-box class that are descendents of elements of gallery class*/
-.gallery .outer-box{
+.travel-gallery .outer-box{
     display: flex;
     flex-wrap: wrap;
     gap:1.5 rem;
@@ -247,7 +247,7 @@ that are descendents of elements of services class*/
 
 /*for all elements of box class that are descendents of elements of outer-box class 
 that are descendents of elements of gallery class*/
-.gallery .outer-box .box{
+.travel-gallery .outer-box .box{
     overflow: hidden;
     box-shadow: 0 1rem 3rem rgba(0,0,0,.1);
     border: .75rem solid #fff;
@@ -259,7 +259,7 @@ that are descendents of elements of gallery class*/
 
 /*for all image elements of box class that are descendents of elements of outer-box class 
 that are descendents of elements of gallery class*/
-.gallery .outer-box .box img{
+.travel-gallery .outer-box .box img{
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -268,7 +268,7 @@ that are descendents of elements of gallery class*/
 /*for all elements of content class that are descendents of elements of box class 
 that are descendents of elements of outer-box class 
 that are descendents of elements of gallery class*/
-.gallery .outer-box .box .content{
+.travel-gallery .outer-box .box .content{
     position: absolute;
     top: -100%;
     left: 0;
@@ -283,14 +283,14 @@ that are descendents of elements of gallery class*/
  that are descendents of elements of outer-box class 
 that are descendents of elements of gallery class
 hover activated over elements of box class*/
-.gallery .outer-box .box:hover .content{
+.travel-gallery .outer-box .box:hover .content{
     top:0;
 }
 
 /*for all h3 elements of content class that are descendents of elements of box class 
 that are descendents of elements of outer-box class 
 that are descendents of elements of gallery class*/
-.gallery .outer-box .box .content h3{
+.travel-gallery .outer-box .box .content h3{
     font-size: 2.5rem;
     color: var(--orange);
 }
@@ -298,7 +298,7 @@ that are descendents of elements of gallery class*/
 /*for all p elements of content class that are descendents of elements of box class 
 that are descendents of elements of outer-box class 
 that are descendents of elements of gallery class*/
-.gallery .outer-box .box .content p{
+.travel-gallery .outer-box .box .content p{
     font-size: 1.2rem;
     color:#eee;
     padding:.5rem 0;
