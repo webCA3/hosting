@@ -1,3 +1,6 @@
+/*Author: Part 1: Izabela, Part 2: Sebastian */
+/*Part 1 - Author:Izabela*/
+
 /* importing fonts*/
 /* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
@@ -259,7 +262,7 @@ header .logo span{
   }
   
 
-
+/*Part 2 - Author: Sebastian*/
 
 
 /* Review */
@@ -396,6 +399,9 @@ header .logo span{
   
   }
   
+
+/*Author:Izabela*/
+
 @media (max-width:991px){
   
     header{
