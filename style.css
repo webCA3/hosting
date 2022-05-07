@@ -203,6 +203,7 @@ header .logo span{
   .login-form-container form .btn{
     display: block;
     width:100%;
+    border-radius: 4rem;
   }
   
 
