@@ -46,9 +46,9 @@ videoBtn.forEach(btn =>{
 const MANDATORYCONTACTINPUTS = document.querySelectorAll('.contact_mandatory_input');
 const CONTACTFORM = document.querySelector('.contact_form');
 const REGEXPATTERNS = {
-  name: /^[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]+$/u,
-  'telephone number': /^\d{9,12}$/,
-  email: /^([\w\.-]+)@([\w-]+)\.([a-zA-Z]{2,8})(\.[a-zA-Z]{2,8})?$/,
+  Name: /^[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]+$/u,
+  'Telephone number': /^\d{9,12}$/,
+  Email: /^([\w\.-]+)@([\w-]+)\.([a-zA-Z]{2,8})(\.[a-zA-Z]{2,8})?$/,
   //messege: /^(\d+\.?\d+){2,200}$/ //work in progress for messege length other than html maxlength
 }
 // regEx validation function
