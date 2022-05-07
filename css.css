@@ -85,7 +85,7 @@ that are descendents of elements of booking class*/
     flex: 1 1 35rem; 
     padding: 2rem;
     box-shadow: 0 1rem 3rem rgba(0,0,0,.1);
-    border-radius: 7rem;  
+    border-radius: 4rem;  
 }
 
 /*for all elements of inputBox class within form elements of container class
