@@ -69,7 +69,6 @@ MANDATORYCONTACTINPUTS.forEach((input) =>{
 
 //main function for evaluating validation and informing user on submit
 CONTACTFORM.addEventListener('submit', e => {
-  e.preventDefault();//Preventing default setting to refresh the page on submit:
   let messeges = [];
   MANDATORYCONTACTINPUTS.forEach( //loop to check input and add to messeges[] if invalid class present 
       (input) =>{
@@ -81,10 +80,13 @@ CONTACTFORM.addEventListener('submit', e => {
     });
     if(messeges.length!==0){ //displaying a warrning only when incorect input was submitted
       toastr.error('Please enter a valid: ' + messeges.join(', '));
+      e.preventDefault();//Preventing default setting to refresh the page on submit:
     }else {
       toastr.info('Your contact form was sent succesfully');
-      //CONTACTFORM.reset(); //reseting form inputs after successfull submit
-      
+      //TESTING:
+     //setTimeout(() => { 
+    //   document.querySelector('contact_form').setAttribute("method", "POST");
+      // document.querySelector('contact_form').setAttribute("action", "https://formsubmit.co/webca3ie@gmail.com");
+      //}, 3000);     
     }
-
 });
