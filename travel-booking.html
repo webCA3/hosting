@@ -32,7 +32,7 @@
                 <a href="index.html" class="logo" title="We'll help you plan the best holiday!"><span class="far"> SOUL travelling</span></a>
 
                 <nav class="navbar">
-                    <a href="/index.html" title="Soul Travelling Agency Home"> home</a>
+                    <a href="/index.html#home" title="Soul Travelling Agency Home"> home</a>
                     <a href="/travel-booking.html" title="Travel Booking">book</a>
                     <a href="/holiday-packages.html" title="Holiday Packages">packages</a>
                     <a href="/index.html#holiday-services" title="Holiday Services">services</a>
@@ -78,7 +78,7 @@
     <section class="booking" id="booking">
 
         <!--sub-header, stylised with css-->
-        <h1 class="title">
+        <h1 class="title" title="We'll help you find the best, cheapest holiday package for individuals or groups!">
             <span>t</span>
             <span>r</span>
             <span>a</span>
@@ -97,7 +97,7 @@
 
         <div class="container">
 
-            <div class="image">
+            <div class="image" title="Let us take you to the destination of your dreams!">
                 <!--image tag for svg with javascript onerror browser event for png version of same image, 
                     for if svg file fails to load (since svg can be tricky in some browsers)-->
                 <img src="images/airplane.svg" onerror='this.src="images/airplane.png"' alt="">
@@ -106,27 +106,27 @@
             <!--booking form arranged with divs-->
             <form action="https://formsubmit.co/webca3ie@gmail.com" method="POST">
                 <!--inner div of inputBox class containing elements for destination input box-->
-                <div class="inputBox">
+                <div class="inputBox" title="Where would you like to go for your wonderful holiday?">
                     <h3>Destination</h3>
                     <input type="text" name="Destination name" placeholder="destination name">
                 </div>
                 <!--inner div of inputBox class containing elements for guests input box-->
-                <div class="inputBox">
+                <div class="inputBox" title="How many people are travelling?">
                     <h3>Guests</h3>
                     <input type="number" name="Number of guest" placeholder="number of guests" min="1">
                 </div>
                 <!--inner div of inputBox class containing elements for arrival date input box-->
-                <div class="inputBox">
+                <div class="inputBox" title="When would you like to depart for your holiday adventure?">
                     <h3>Arrival Date</h3>
                     <input name="Arrival date" type="date">
                 </div>
                 <!--inner div of inputBox class containing elements for return date input box-->
-                <div class="inputBox">
+                <div class="inputBox" title="When would you like to return from your amazing trip?">
                     <h3>Return Date</h3>
                     <input name="Return date" type="date">
                 </div>
                 <!--submit button-->
-                <input type="submit" class="btn" value="Book Now">
+                <input type="submit" class="btn" value="Book Now" title="Click to find the best holiday package for you!">
                 
             </form>
         </div>
