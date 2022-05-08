@@ -1,8 +1,7 @@
 <!--Author Sebastian-->
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Soul Travelling Agency: Contact Page</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,120 +13,111 @@
     <link rel="stylesheet" href="Sebastian_Style.css">
     <link href="style.css" rel="stylesheet" type='text/css'>
     <!--Dedicated css for toastr library that uses JQuery effects-->
-    <link rel="stylesheet" href="toastr.min.css"> 
-</head>
-<body>
-   <!-- start of header section-->
-            <header>
-
-                <div id="menu-bar" class="fas fa-bars"></div>
-
-                <a href="index.html" class="logo" title="We'll help you plan the best holiday!"><span class="far"> SOUL travelling</span></a>
-
-                <nav class="navbar">
-                    <a href="/index.html" title="Soul Travelling Agency Home"> home</a>
-                    <a href="/travel-booking.html" title="Travel Booking">book</a>
-                    <a href="/holiday-packages.html" title="Holiday Packages">packages</a>
-                    <a href="/index.html#holiday-services" title="Holiday Services">services</a>
-                    <a href="/index.html#travel-gallery" title="Travel Gallery">gallery</a>
-                    <a href="/index.html#holiday-review" title="Holiday Reviews">review</a>
-                    <a href="/contact-soul-travelling.html" title="Contact Soul Travelling Agency">contact</a>
-                </nav>
-
-                <div class="icons">
-                    <i class="fas fa-search" id="search-btn" title="Search For Best Holidays"></i>
-                    <i class="fas fa-user" id="login-btn" title="Log In To Soul Travelling"></i>
-                </div>
-
-                <form action="null" class="search-bar-container">
-                    <input type="search" id="search-bar" placeholder="search here...">
-                    <label for="search-bar" class="fas fa-search"></label>
-                </form>
-
-            </header>
-
-        <!-- end of header section-->
-
-        <!-- login form container -->
-
-        <div class="login-form-container">
-
-            <i class="fas fa-times" id="form-close"></i>
-
-            <form action="https://formsubmit.co/webca3ie@gmail.com" method="POST">
-                <h3>login</h3>
-                <input type="email" name="Email" class="box" placeholder="enter your email">
-                <input type="password" name="Password" class="box" placeholder="enter your password">
-                <input type="submit" value="login now" class="btn">
-                <input type="checkbox" id="remember">
-                <label for="remember">remember me</label>
-                <p>Forget password? <a href="#">click here</a></p>
-                <p>Don't have and account? <a href="#">register now</a></p>
-            </form>
-
-        </div>
-
+    <link rel="stylesheet" href="toastr.min.css">
+  </head>
+  <body>
+    <!-- start of header section-->
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+      <a href="index.html" class="logo" title="We'll help you plan the best holiday!">
+        <span class="far"> SOUL travelling</span>
+      </a>
+      <nav class="navbar">
+        <a href="/index.html" title="Soul Travelling Agency Home"> home</a>
+        <a href="/travel-booking.html" title="Travel Booking">book</a>
+        <a href="/holiday-packages.html" title="Holiday Packages">packages</a>
+        <a href="/index.html#holiday-services" title="Holiday Services">services</a>
+        <a href="/index.html#travel-gallery" title="Travel Gallery">gallery</a>
+        <a href="/index.html#holiday-review" title="Holiday Reviews">review</a>
+        <a href="/contact-soul-travelling.html" title="Contact Soul Travelling Agency">contact</a>
+      </nav>
+      <div class="icons">
+        <i class="fas fa-search" id="search-btn" title="Search For Best Holidays"></i>
+        <i class="fas fa-user" id="login-btn" title="Log In To Soul Travelling"></i>
+      </div>
+      <form action="null" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+    </header>
+    <!-- end of header section-->
+    <!-- login form container -->
+    <div class="login-form-container">
+      <i class="fas fa-times" id="form-close"></i>
+      <form action="https://formsubmit.co/webca3ie@gmail.com" method="POST">
+        <h3>login</h3>
+        <input type="email" name="Email" class="box" placeholder="enter your email">
+        <input type="password" name="Password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>Forget password? <a href="#">click here</a>
+        </p>
+        <p>Don't have and account? <a href="#">register now</a>
+        </p>
+      </form>
+    </div>
     <!--Contact Section -->
     <section class="contact">
-        <h1 class="heading" title="Contact Soul Travelling Agency with any requests or questions about the best, cheapest holiday packages everywhere you want to travel!">
-            <span>C</span>
-            <span>O</span>
-            <span>N</span>
-            <span>T</span>
-            <span>A</span>
-            <span>C</span>
-            <span>T</span>
-        </h1>
-        <div class="row">
-            <div class="contact_icon" title="Reach out to us so we can help fulfill your travel dreams and fill your soul!">
-                <img src="./Contact/Picture_contact.svg" alt="Colourful Balloon" onerror="this.src='./Contact/Picture_contact.png'">
-            </div>
-            <form action="https://formsubmit.co/webca3ie@gmail.com" class="contact_form" method="POST">
-                <div class="inputBox">
-                    <input type="text" class="contact_mandatory_input" name="Name" placeholder="Name*" maxlength="30">
-                    <input type="email" class="contact_mandatory_input" name="Email" placeholder="Email*" maxlength="40">
-                </div>
-                <div class="inputBox">
-                    <input type="number" name="Telephone number" class="contact_mandatory_input" placeholder="Telephone number*">
-                    <input type="text" placeholder="Subject" maxlength="30">
-                </div>
-                <div title="Please type here any questions or comments or concerns about our holiday and travel offers">
-                    <textarea rows="10" cols="30" name="Message" placeholder="Enter your message here*" class="contact_mandatory_input" maxlength="700"></textarea>
-                    <div>*mandatory fields</div>
-                    <input type="submit" class="btn" value="Contact us">
-                </div>
-            </form>
+      <h1 class="heading" title="Contact Soul Travelling Agency with any requests or questions about the best, cheapest holiday packages everywhere you want to travel!">
+        <span>C</span>
+        <span>O</span>
+        <span>N</span>
+        <span>T</span>
+        <span>A</span>
+        <span>C</span>
+        <span>T</span>
+      </h1>
+      <div class="row">
+        <div class="contact_icon" title="Reach out to us so we can help fulfill your travel dreams and fill your soul!">
+          <img src="./Contact/Picture_contact.svg" alt="Colourful Balloon" onerror="this.src='./Contact/Picture_contact.png'">
         </div>
+        <form action="https://formsubmit.co/webca3ie@gmail.com" class="contact_form" method="POST">
+          <div class="inputBox">
+            <input type="text" class="contact_mandatory_input" name="Name" placeholder="Name*" maxlength="30">
+            <input type="email" class="contact_mandatory_input" name="Email" placeholder="Email*" maxlength="40">
+          </div>
+          <div class="inputBox">
+            <input type="number" name="Telephone number" class="contact_mandatory_input" placeholder="Telephone number*">
+            <input type="text" placeholder="Subject" maxlength="30">
+          </div>
+          <div title="Please type here any questions or comments or concerns about our holiday and travel offers">
+            <textarea rows="10" cols="30" name="Message" placeholder="Enter your message here*" class="contact_mandatory_input" maxlength="700"></textarea>
+            <div>*mandatory fields</div>
+            <input type="submit" class="btn" value="Contact us">
+          </div>
+        </form>
+      </div>
     </section>
-<!-- Footer -->
+    <!-- Footer -->
     <section class="footer">
-        <div class="box-container">
-            <div class="box">
-                <h3>About us</h3>
-                <p>At Soul Travelling Agency, our goal is to help you fill your soul by fulfilling your travel dreams.  We will find you the best holiday for the lowest price.  As one of Ireland's best online travel agencies, we offer the best package holidays from Ireland, the cheapest package holidays to exciting destinations, the best flight and hotel deals from Ireland worldwide.  We offer exciting and relaxing travel opportunities for family, friends, groups, and individuals to top destinations from Ireland.</p>
-            </div>
-            <div class="box">
-                <h3>Branch locations</h3>
-                <a href="/index.html" title="Soul Travelling Agency Home">Dublin</a>
-                <a href="/index.html" title="Soul Travelling Agency Home">Wexford</a>
-                <a href="/index.html" title="Soul Travelling Agency Home">Cork</a>
-            </div>
-            <div class="box">
-                <h3>Quick links</h3>
-                <a href="/index.html" title="Soul Travelling Agency Home">Home</a>
-                <a href="/travel-booking.html" title="Travel Booking">Book</a>
-                <a href="/contact-soul-travelling.html" title="Contact Soul Travelling Agency">Contact us</a>
-            </div>
-            <div class="box">
-                <h3>Follow us</h3>
-                <a href="/index.html" title="Follow us on facebook">Facebook</a>
-                <a href="/index.html" title="Follow us on instagram">Instagram</a>
-            </div>
+      <div class="box-container">
+        <div class="box">
+          <h3>About us</h3>
+          <p>At Soul Travelling Agency, our goal is to help you fill your soul by fulfilling your travel dreams. We will find you the best holiday for the lowest price. As one of Ireland's best online travel agencies, we offer the best package holidays from Ireland, the cheapest package holidays to exciting destinations, the best flight and hotel deals from Ireland worldwide. We offer exciting and relaxing travel opportunities for family, friends, groups, and individuals to top destinations from Ireland.</p>
         </div>
+        <div class="box">
+          <h3>Branch locations</h3>
+          <a href="/index.html" title="Soul Travelling Agency Home">Dublin</a>
+          <a href="/index.html" title="Soul Travelling Agency Home">Wexford</a>
+          <a href="/index.html" title="Soul Travelling Agency Home">Cork</a>
+        </div>
+        <div class="box">
+          <h3>Quick links</h3>
+          <a href="/index.html" title="Soul Travelling Agency Home">Home</a>
+          <a href="/travel-booking.html" title="Travel Booking">Book</a>
+          <a href="/contact-soul-travelling.html" title="Contact Soul Travelling Agency">Contact us</a>
+        </div>
+        <div class="box">
+          <h3>Follow us</h3>
+          <a href="/index.html" title="Follow us on facebook">Facebook</a>
+          <a href="/index.html" title="Follow us on instagram">Instagram</a>
+        </div>
+      </div>
     </section>
-    <script src="Sebastian_Script_contact_page.js"></script> 
-        <!--Library toastr that uses JQuery effects for alerts-->
+    <script src="Sebastian_Script_contact_page.js"></script>
+    <!--Library toastr that uses JQuery effects for alerts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="toastr.min.js"></script>
-</body>
+  </body>
 </html>
