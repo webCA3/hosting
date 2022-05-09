@@ -322,13 +322,13 @@ header .logo span{
 .contact .row .contact_icon img{
     width: 100%;
 }
-.contact .row .form{
+.contact .row form{
     padding: 1.8rem;  
     box-shadow: 0 1rem 1.8rem rgba(0,0,0,0.1);
     border-radius: 0.5rem;
 
 }
-.contact .row .form .inputBox{
+.contact .row form .inputBox{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
