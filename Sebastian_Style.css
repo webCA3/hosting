@@ -317,14 +317,14 @@ header .logo span{
     gap:1.5rem;
 }
 .contact .row .contact_icon{
-    flex: 1 1 35 rem;
+    flex: 1 1 35rem;
 }
 .contact .row .contact_icon img{
     width: 100%;
 }
 .contact .row .form{
     padding: 1.8rem;  
-    flex: 1 1 35 rem;
+    flex: 1 1 35rem;
     box-shadow: 0 1rem 1.8rem rgba(0,0,0,0.1);
     border-radius: 0.5rem;
 
